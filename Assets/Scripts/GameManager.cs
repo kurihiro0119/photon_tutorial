@@ -7,10 +7,15 @@ using Photon.Pun;
 using Photon.Realtime;
 
 namespace Com.MyCompany.MyGame{
-
-
     public class GameManager : MonoBehaviourPunCallbacks
     {
+        public static GameManager Instance;
+
+        private void Start()
+        {
+            Instance = this;
+        }
+
         // Start is called before the first frame update
         public override void OnLeftRoom(){
             SceneManager.LoadScene(0);

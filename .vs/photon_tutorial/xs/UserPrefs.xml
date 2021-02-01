@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{2A819CD0-9694-B14D-492D-53981D76E406}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraWork.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameManager.cs" Line="16" Column="25" />
+      <File FileName="Assets/PunBasics_tutorial/Scripts/PlayerManager.cs" Line="62" Column="54" />
+      <File FileName="Assets/PunBasics_tutorial/Scripts/PlayerAnimatorManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerNameInputField.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/CameraWork.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="photon_tutorial" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="PunBasics_tutorial" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="CameraWork.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="photon_tutorial" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="97f86c56-3a30-492a-9198-c903fae182ce" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
