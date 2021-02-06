@@ -7,8 +7,6 @@ using UnityEngine.EventSystems;
 
 namespace Com.MyCompany.MyGame
 {
-
-
     public class PlayerManager : MonoBehaviourPunCallbacks
     {
         #region Private Fields
@@ -23,6 +21,16 @@ namespace Com.MyCompany.MyGame
         bool IsFiring;
 
         #endregion
+
+        public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
+
+            if(stream.IsWriting){
+                stream.SendNext(IsFiring);
+            }
+            else{
+                this.IsFiring = (bool)stream.ReceiveNext();
+            }
+        }
 
         #region MonoBehaviour CallBacks
 
@@ -41,12 +49,32 @@ namespace Com.MyCompany.MyGame
             }
         }
 
+        void Start(){
+            Debug.Log("Start!!!!!!!!!");
+            CameraWork _cameraWork = this.gameObject.GetComponent<CameraWork>();
+
+            if(_cameraWork != null){
+                if(photonView.IsMine){
+                    Debug.Log("photon is mine!!!!!!!!");
+                    _cameraWork.OnStartFollowing();
+                }
+                else{
+                    Debug.Log("isMine ではない");
+                }
+            }
+            else{
+                Debug.LogError("<Color=Red><a>Missing</a></Color> CameraWork Component on playerPrefab.", this);
+            }
+        }
+
         /// <summary>
         /// MonoBehaviour method called on GameObject by Unity on every frame.
         /// </summary>
         void Update()
         {
-            ProcessInputs();
+            if(photonView.IsMine){
+                ProcessInputs();
+            }
 
             //trigger Beams active state
             if (beams != null && IsFiring != beams.activeInHierarchy)
