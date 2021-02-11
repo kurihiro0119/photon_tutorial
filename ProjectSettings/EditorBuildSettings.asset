@@ -5,19 +5,38 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Launcher.unity
     guid: 6dd52aaf2716845b08efee681ee52df6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 1.unity
     guid: 2d319793f8477459b903ebd81d504860
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 2.unity
     guid: dab714c93530049ffad9731f0985de24
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 3.unity
     guid: 7c77c1ef44f864962a06f71ec1204fb2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Room for 4.unity
     guid: 207591aac12934a30a1448c9fb2f83af
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
+    guid: bff77b01b50254edbb6edeeaba5ae8b3
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 1.unity
+    guid: 9b8561c6e396849a5ba48c3eb9524049
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 2.unity
+    guid: 764428c63577f4580af4ce54ca9f4b1b
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 3.unity
+    guid: e07afcca5bf1a41f5bd28f498656b7b8
+  - enabled: 1
+    path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room
+      for 4.unity
+    guid: e7a7f9734636d415ca84ef3aaf7680f6
   m_configObjects: {}
