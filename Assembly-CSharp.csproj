@@ -303,7 +303,11 @@
     <Compile Include="Assets\Photon\Simple\Utilities\Pooling\Pool.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\SimpleDocsURLS.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\SmartVars\SmartVars.cs" />
+    <Compile Include="Assets\PhotonTutorial\Scripts\CameraWork.cs" />
+    <Compile Include="Assets\PhotonTutorial\Scripts\GameManager.cs" />
     <Compile Include="Assets\PhotonTutorial\Scripts\Launcher.cs" />
+    <Compile Include="Assets\PhotonTutorial\Scripts\PlayerAnimatorManager.cs" />
+    <Compile Include="Assets\PhotonTutorial\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\PhotonTutorial\Scripts\PlayerNameInputField.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\CameraWork.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\PlayerAnimatorManager.cs" />

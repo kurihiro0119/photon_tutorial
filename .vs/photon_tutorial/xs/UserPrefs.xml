@@ -1,11 +1,19 @@
 ﻿<Properties StartupConfiguration="{2A819CD0-9694-B14D-492D-53981D76E406}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PhotonTutorial/Scripts/PlayerAnimatorManager.cs">
     <Files>
-      <File FileName="Assets/PhotonTutorial/Scripts/Launcher.cs" Line="72" Column="44" />
+      <File FileName="Assets/PhotonTutorial/Scripts/Launcher.cs" Line="94" Column="44" />
       <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs" Line="1192" Column="28" />
       <File FileName="Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" />
       <File FileName="Assets/PhotonTutorial/Scripts/PlayerNameInputField.cs" Line="1" Column="1" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs" Line="190" Column="4" />
+      <File FileName="Assets/PhotonTutorial/Scripts/GameManager.cs" Line="2" Column="1" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs" Line="13" Column="1" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerAnimatorManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerManager.cs" Line="128" Column="31" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs" Line="1" Column="1" />
+      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs" Line="876" Column="1" />
+      <File FileName="Assets/PhotonTutorial/Scripts/PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/PhotonTutorial/Scripts/PlayerAnimatorManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,18 +22,20 @@
             <Node name="Assets" expanded="True">
               <Node name="Photon" expanded="True">
                 <Node name="PhotonUnityNetworking" expanded="True">
-                  <Node name="Code" expanded="True" />
+                  <Node name="Code" expanded="True">
+                    <Node name="Views" expanded="True" />
+                  </Node>
                   <Node name="Demos" expanded="True">
                     <Node name="PunBasics-Tutorial" expanded="True">
-                      <Node name="Scripts" expanded="True">
-                        <Node name="Launcher.cs" selected="True" />
-                      </Node>
+                      <Node name="Scripts" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
               </Node>
               <Node name="PhotonTutorial" expanded="True">
-                <Node name="Scripts" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="PlayerAnimatorManager.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Scripts" expanded="True" />
             </Node>

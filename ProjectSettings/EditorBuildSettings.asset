@@ -21,6 +21,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Room for 4.unity
     guid: 207591aac12934a30a1448c9fb2f83af
   - enabled: 1
+    path: Assets/PhotonTutorial/Scenes/Launcher.unity
+    guid: e64c936e60ab049779cf69459de6e52f
+  - enabled: 1
+    path: Assets/PhotonTutorial/Scenes/Room for 1.unity
+    guid: cfb63825ab2dd45da94ad890ebe91b83
+  - enabled: 1
+    path: Assets/PhotonTutorial/Scenes/Room for 2.unity
+    guid: b38d2227f04e1440a93361bf04e3f2f7
+  - enabled: 1
+    path: Assets/PhotonTutorial/Scenes/Room for 3.unity
+    guid: a0e042d8e140842a585fd10a20d806cc
+  - enabled: 1
+    path: Assets/PhotonTutorial/Scenes/Room for 4.unity
+    guid: c29089df051b54507bd8f4b4e14f4854
+  - enabled: 1
     path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
     guid: bff77b01b50254edbb6edeeaba5ae8b3
   - enabled: 1

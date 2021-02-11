@@ -6,6 +6,7 @@ namespace Com.MyCompany.Pthoton.Tutorial
 {
     public class Launcher : MonoBehaviourPunCallbacks
     {
+
         #region Private Serializable Fields
 
         /// <summary>
@@ -34,6 +35,13 @@ namespace Com.MyCompany.Pthoton.Tutorial
         /// </summary>
         string gameVersion = "1";
 
+        /// <summary>
+        /// Keep track of the current process. Since connection is asynchronous and is based on several callbacks from Photon,
+        /// we need to keep track of this to properly adjust the behavior when we receive call back by Photon.
+        /// Typically this is used for the OnConnectedToMaster() callback.
+        /// </summary>
+        bool isConnecting;
+
 
         #endregion
 
@@ -57,6 +65,7 @@ namespace Com.MyCompany.Pthoton.Tutorial
         /// </summary>
         void Start()
         {
+
             progressLabel.SetActive(false);
             controlPanel.SetActive(true);
         }
@@ -75,6 +84,7 @@ namespace Com.MyCompany.Pthoton.Tutorial
         /// </summary>
         public void Connect()
         {
+
             progressLabel.SetActive(true);
             controlPanel.SetActive(false);
 
@@ -86,9 +96,12 @@ namespace Com.MyCompany.Pthoton.Tutorial
             }
             else
             {
+                // keep track of the will to join a room, because when we come back from the game we will get a callback that we are connected, so we need to know what to do then
+                isConnecting = PhotonNetwork.ConnectUsingSettings();
+
                 // #Critical, we must first and foremost connect to Photon Online Server.
                 PhotonNetwork.GameVersion = gameVersion;
-                PhotonNetwork.ConnectUsingSettings();
+                //PhotonNetwork.ConnectUsingSettings();
             }
         }
 
@@ -103,8 +116,13 @@ namespace Com.MyCompany.Pthoton.Tutorial
         {
             Debug.Log("PUN Basics Tutorial/Launcher: OnConnectedToMaster() was called by PUN");
 
-            // #Critical: The first we try to do is to join a potential existing room. If there is, good, else, we'll be called back with OnJoinRandomFailed()
-            PhotonNetwork.JoinRandomRoom();
+            if (isConnecting)
+            {
+                // #Critical: The first we try to do is to join a potential existing room. If there is, good, else, we'll be called back with OnJoinRandomFailed()
+                PhotonNetwork.JoinRandomRoom();
+                isConnecting = false;
+            }
+
 
         }
 
@@ -119,12 +137,23 @@ namespace Com.MyCompany.Pthoton.Tutorial
         public override void OnJoinedRoom()
         {
             Debug.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
+
+            if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
+            {
+                Debug.Log("We load the 'Room for 1' ");
+
+
+                // #Critical
+                // Load the Room Level.
+                PhotonNetwork.LoadLevel("Room for 1");
+            }
         }
 
 
         public override void OnDisconnected(DisconnectCause cause)
         {
             Debug.LogWarningFormat("PUN Basics Tutorial/Launcher: OnDisconnected() was called by PUN with reason {0}", cause);
+            isConnecting = false;
 
             progressLabel.SetActive(false);
             controlPanel.SetActive(true);
