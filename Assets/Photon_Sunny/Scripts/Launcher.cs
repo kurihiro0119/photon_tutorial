@@ -141,12 +141,14 @@ namespace Com.MyCompany.SunnyLand
 
             if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
             {
-                Debug.Log("We load the 'SunnyRoom for 1' ");
+                //Debug.Log("We load the 'SunnyRoom for 1' ");
+                Debug.Log("We load the 'ZyaRoom for 1' ");
 
 
                 // #Critical
                 // Load the Room Level.
-                PhotonNetwork.LoadLevel("SunnyRoom for 1");
+                //PhotonNetwork.LoadLevel("SunnyRoom for 1");
+                PhotonNetwork.LoadLevel("ZyaRoom for 1");
             }
         }
 

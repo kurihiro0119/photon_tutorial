@@ -27,6 +27,15 @@ EditorBuildSettings:
     path: Assets/Photon_Sunny/Scenes/SunnyRoom for 1.unity
     guid: ff5c9c827523940838e6985684369f43
   - enabled: 1
+    path: Assets/Photon_Sunny/Scenes/SunnyRoom for 2.unity
+    guid: 4e2bc17b8b3a549ff855938a5fbaa64f
+  - enabled: 1
+    path: Assets/Photon_Sunny/Scenes/SunnyRoom for 3.unity
+    guid: d8e2b624e456e48d5aabcb1d959c3889
+  - enabled: 1
+    path: Assets/Photon_Sunny/Scenes/SunnyRoom for 4.unity
+    guid: 8f564536e35234cc999e38d074bfa3d2
+  - enabled: 1
     path: Assets/PhotonTutorial/Scenes/Launcher.unity
     guid: e64c936e60ab049779cf69459de6e52f
   - enabled: 1
@@ -41,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PhotonTutorial/Scenes/Room for 4.unity
     guid: c29089df051b54507bd8f4b4e14f4854
+  - enabled: 1
+    path: Assets/Photon_Sunny/Scenes/ZyaRoom for 1.unity
+    guid: 1e3259158eddb472a9be8af81521bb7b
   - enabled: 1
     path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
     guid: bff77b01b50254edbb6edeeaba5ae8b3

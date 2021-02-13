@@ -313,6 +313,7 @@
     <Compile Include="Assets\Photon_Sunny\Scripts\Launcher.cs" />
     <Compile Include="Assets\Photon_Sunny\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Photon_Sunny\Scripts\PlayerNameInputField.cs" />
+    <Compile Include="Assets\Photon_Sunny\Scripts\ZyankenManager.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\CameraWork.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\PlayerAnimatorManager.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\PlayerManager.cs" />
