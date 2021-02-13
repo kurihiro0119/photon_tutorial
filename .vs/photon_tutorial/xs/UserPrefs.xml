@@ -1,40 +1,25 @@
 ﻿<Properties StartupConfiguration="{2A819CD0-9694-B14D-492D-53981D76E406}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PhotonTutorial/Scripts/PlayerAnimatorManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Photon_Sunny/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/PhotonTutorial/Scripts/Launcher.cs" Line="94" Column="44" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs" Line="1192" Column="28" />
-      <File FileName="Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" />
-      <File FileName="Assets/PhotonTutorial/Scripts/PlayerNameInputField.cs" Line="1" Column="1" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs" Line="190" Column="4" />
-      <File FileName="Assets/PhotonTutorial/Scripts/GameManager.cs" Line="2" Column="1" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs" Line="13" Column="1" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerAnimatorManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerManager.cs" Line="128" Column="31" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs" Line="1" Column="1" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PunClasses.cs" Line="876" Column="1" />
-      <File FileName="Assets/PhotonTutorial/Scripts/PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Photon_Sunny/Scripts/Launcher.cs" Line="142" Column="43" />
+      <File FileName="Assets/Photon_Sunny/Scripts/GameManager.cs" Line="27" Column="1" />
+      <File FileName="Assets/Photon_Sunny/Scripts/PlayerManager.cs" Line="56" Column="25" />
+      <File FileName="Assets/PhotonTutorial/Scripts/PlayerManager.cs" Line="11" Column="1" />
+      <File FileName="Assets/Photon_Sunny/Scripts/PlayerNameInputField.cs" Line="1" Column="1" />
       <File FileName="Assets/PhotonTutorial/Scripts/PlayerAnimatorManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/PhotonTutorial/Scripts/Launcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/PhotonTutorial/Scripts/GameManager.cs" Line="19" Column="28" />
+      <File FileName="Assets/PhotonTutorial/Scripts/CameraWork.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="20" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="photon_tutorial" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Photon" expanded="True">
-                <Node name="PhotonUnityNetworking" expanded="True">
-                  <Node name="Code" expanded="True">
-                    <Node name="Views" expanded="True" />
-                  </Node>
-                  <Node name="Demos" expanded="True">
-                    <Node name="PunBasics-Tutorial" expanded="True">
-                      <Node name="Scripts" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="PhotonTutorial" expanded="True">
+              <Node name="Photon_Sunny" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="PlayerAnimatorManager.cs" selected="True" />
+                  <Node name="GameManager.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True" />
@@ -46,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0fe52798-d2c2-4a77-9e1a-ed29d72e4870" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3d4fb471-e219-4a25-84e1-0f2038606de0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

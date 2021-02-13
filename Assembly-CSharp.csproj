@@ -309,6 +309,10 @@
     <Compile Include="Assets\PhotonTutorial\Scripts\PlayerAnimatorManager.cs" />
     <Compile Include="Assets\PhotonTutorial\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\PhotonTutorial\Scripts\PlayerNameInputField.cs" />
+    <Compile Include="Assets\Photon_Sunny\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Photon_Sunny\Scripts\Launcher.cs" />
+    <Compile Include="Assets\Photon_Sunny\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Photon_Sunny\Scripts\PlayerNameInputField.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\CameraWork.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\PlayerAnimatorManager.cs" />
     <Compile Include="Assets\PunBasics_tutorial\Scripts\PlayerManager.cs" />
